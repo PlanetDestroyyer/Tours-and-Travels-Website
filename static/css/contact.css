@@ -1,0 +1,80 @@
+.card {
+    background: rgb(201, 162, 162);
+    height: 29vw;
+}
+
+.text-contact-head {
+    font-size: 3vw;
+}
+
+.text-contact-head {
+        font-size: 13vw;
+    }
+.text-contact {
+    font-size: 2vw;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensures the image is treated as a block-level element */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; /* Example style */
+}
+
+/* contact.css */
+
+/* Add a class to the container of contact details */
+.contact-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+/* Style each contact detail item */
+.text-contact {
+    line-height: 5vw;
+    color: black;
+    margin: 0; /* Remove default margin */
+    display: flex;
+    align-items: center; /* Center content vertically */
+}
+
+/* Optional: Add some space between icons and text */
+.text-contact i {
+    margin-right: 0.5rem;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .text-contact-head {
+        font-size: 5vw;
+    }
+
+    .card {
+        height: auto;
+    }
+
+    .map {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-details {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+    h3 {
+        line-height: 6vw; /* Adjust as needed for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    h3 {
+        line-height: 8vw; /* Adjust as needed for even smaller screens */
+    }
+}
